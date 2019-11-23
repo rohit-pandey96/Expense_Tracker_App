@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">Expense Tracker</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="signup">Signup</string>
+    <string name="id">ID</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="placeanddate">Place &amp; Date</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="day">Day</string>
+    <string name="time">Time</string>
+    <string name="spend">Spend</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="place">Place:</string>
+    <string name="add">Add Expense</string>
+    <string name="delete">Delete</string>
+    <string name="create_account">Create Account</string>
+    <string name="set_monthly_limit">Set Monthly Limit</string>
+    <string name="track_your_expenses">Track Your Expenses</string>
+    <string name="spent">Spent</string>
+    <string name="available">Available</string>
+    <string name="maximum_limit">maximum limit</string>
+    <string name="default_10_000">Default:10,000</string>
+    <string name="save">save</string>
+    <string name="max_limit">Limit:</string>
+    <string name="food">Food</string>
+    <string name="others">Others</string>
+    <string name="groceries">Groceries</string>
+    <string name="travel">Travel</string>
+    <string name="expense_type">Expense Type:</string>
+    <string name="spend1">Spend:</string>
+    <string name="maximumlimit">Maximum Limit</string>
+    <string name="delete_all_expenses">Delete all expenses</string>
+    <string name="wallet">wallet</string>
+    <string name="save_today_build_better_tomorrow">SAVE TODAY, BUILD BETTER TOMORROW</string>
+
+    <string-array name="expense_type">
+        <item>Food</item>
+        <item>Travel</item>
+        <item>Groceries</item>
+        <item>Others</item>
+    </string-array>
+</resources>

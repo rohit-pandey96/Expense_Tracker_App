@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/maaxlimitlayout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:background="@drawable/max_limit_dialog"
+
+    >
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:orientation="vertical"
+        android:layout_margin="15dp"
+       >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Monthly Limit"
+            android:textColor="@color/white_smoke"
+            android:layout_gravity="center"
+            android:textSize="20sp"
+            android:layout_marginTop="3dp"
+            android:textStyle="normal"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_marginTop="120dp"
+        android:layout_height="wrap_content"
+        android:text="@string/maximumlimit"
+        android:textColor="@color/white_smoke"/>
+    <EditText
+        android:id="@+id/maxlimitedt"
+        android:inputType="number"
+        android:textColor="@color/white_smoke"
+        android:layout_marginTop="5dp"
+        android:textColorHint="@color/white_smoke"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:text="@string/default_10_000"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/olive"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/maxlimitsavebtn"
+        android:background="@drawable/max_limit_dialog"
+        android:layout_marginTop="35dp"
+        android:text="@string/save"
+        android:layout_gravity="end"
+        android:textColor="@color/white_smoke"
+        android:layout_width="100dp"
+        android:layout_marginRight="15dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="15dp" />
+    </LinearLayout>
+
+</LinearLayout>
